@@ -1,0 +1,114 @@
+.container {
+    max-width: 1280px;
+    width: 100%;
+}
+
+.loading-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(43, 54, 67, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+}
+.loading-wrap img {
+    /* width: 90px; */
+    max-width: 170px;
+    width: 100%;
+}
+.form-horizontal .radio>span {
+    margin-top: 4px;
+}
+.form-horizontal .checkbox, .form-horizontal .checkbox-inline, .form-horizontal .radio, .form-horizontal .radio-inline {
+    padding-top: 0px; 
+}
+.require {
+    color: red;
+}
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_desc:after {
+    content: '';
+}
+.page-header.navbar .menu-toggler {
+    opacity: 1;
+}
+.btn-icon i.fa {
+    font-size: 18px;
+}
+
+.btn.disabled,
+.btn.disabled:hover,
+.btn.disabled:focus,
+.btn.disabled:active {
+    background: #928e8e;
+    border-color: #928e8e;
+}
+.page-header.navbar .page-logo .logo-default {
+    width: 73px;
+    margin: 0;
+}
+
+.page-header.navbar .menu-toggler {
+    background-image : url('../../../assets/img/menu-toggler.png');
+    background-size: cover;
+
+}
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover,
+.page-sidebar, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover {
+    background: #ffffff;
+}
+.page-header.navbar {
+    background-color: #2b3643;
+}
+.page-sidebar, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover,
+.nav>li>a:hover {
+    background-color: #364150;
+}
+.nav-item .nav-link,
+.nav-item .nav-link i,
+.nav-item .nav-link .title,
+.page-header.navbar .top-menu .navbar-nav>li.dropdown>.dropdown-toggle>i {
+    color: #dad8d8;
+}
+.nav-item .nav-link:hover .title {
+    color: #ffffff;
+}
+.portlet.box.dark-grey {
+    border: 1px solid #9cbac5;
+    border-top: 0;
+}
+.portlet.dark-grey {
+    background-color: #9cbac5;
+}
+.page-content-wrapper .page-content {
+    padding: 25px 0px !important;
+}
+
+@media screen and (max-width: 991px) {
+    .page-header-inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    .page-header-inner .header-wrap {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .page-header .top-menu {
+        background: transparent;
+    }
+    .portlet.dark-grey .caption {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .portlet.dark-grey .caption {
+        font-size: 13px;
+    }
+}
